@@ -58,7 +58,6 @@ Number of records:                      6819
 Number of features/ variables:    96
 Target variable of interest:            Bankrupt?
  
- 
 ## Dataset Fields and Description
  
 ![image](https://user-images.githubusercontent.com/58331935/163730574-91c02158-09e5-41cb-8d0f-e641835c6929.png)
@@ -87,7 +86,6 @@ Target variable of interest:            Bankrupt?
 **Target variable correlation**
 
 ![image](https://user-images.githubusercontent.com/58331935/163730779-ba017528-6688-4d1c-ade3-70a727f62dd1.png)
-
  
 **Correlation Matrix**
 
@@ -95,18 +93,13 @@ Target variable of interest:            Bankrupt?
  
 ![image](https://user-images.githubusercontent.com/58331935/163730790-ca491068-8a7d-4a2e-8a6e-6d868eac604e.png)
 
- 
 **Data Statistics**
 
 ![image](https://user-images.githubusercontent.com/58331935/163730870-d56afeed-31fc-47dd-8821-18d650cdf39c.png)
 
- 
 **Histograms**
  
 ![image](https://user-images.githubusercontent.com/58331935/163730877-e68d2068-8db1-4152-bf75-752da3edac3b.png)
-![image](https://user-images.githubusercontent.com/58331935/163730880-7ff72f23-eaf0-4040-878e-c46559cac9b2.png)
-
- 
  
 **Boxplots**
 
@@ -115,7 +108,8 @@ Target variable of interest:            Bankrupt?
  •  There are some features that have significant number of higher values, like: Current_Asset_Turnover_Rate Cash_Turnover_Rate
 
 ![image](https://user-images.githubusercontent.com/58331935/163730898-44d62f3f-09e5-44c1-96ef-1e4c05c5be29.png)
- 
+![image](https://user-images.githubusercontent.com/58331935/163733135-661d2ce8-d28d-4b87-b118-cc1fb8567796.png)
+
 ## Data Modeling
 
 **Prediction:**
@@ -131,13 +125,17 @@ Target variable determines if a company is bankrupt or not. 1 - bankrupt 0 - not
 **Classification models:**
 
 Decision Trees
+
 Random Forest Classifier
+
 Logistic Regression
 
 **Data Transformation: Each model is run with the following.**
 
 Original data
+
 Scaled data
+
 SMOTE
 
 **Analysis of metrices such as accuracy, confusion matrix to determine the best model for the prediction.**
@@ -185,7 +183,6 @@ This function handles unbalanced classification problems using the SMOTE method.
 
 ![image](https://user-images.githubusercontent.com/58331935/163731377-06e6464a-cf28-411b-aa48-5516a8bd9809.png)
 
- 
 **Target Variable Distribution (SMOTE Dataset)**
 
 ![image](https://user-images.githubusercontent.com/58331935/163731382-f378f9af-b9be-45ea-b932-75cb014c6def.png)
@@ -208,7 +205,6 @@ This function handles unbalanced classification problems using the SMOTE method.
 
  ![image](https://user-images.githubusercontent.com/58331935/163731767-38f62640-03ec-434b-bcf3-ba25a0c2a643.png)
 
- 
 **Final Model** LOGISTIC REGRESSION
 
 ## Prediction with Test data using Logistic Regression (Final Model)
